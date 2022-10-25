@@ -1,0 +1,119 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Grant Yang
+ * email: yanggra@oregonstate.edu
+ */
+ header{
+    background-color: black;
+    margin-bottom: 15px;
+ }
+.header-image-container{
+    float: left;
+}
+h1{
+    display: inline-block;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 58px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    font-family: "Roboto";
+    font-style: normal;
+
+}
+.filter-container{
+    background-color: lightgray;
+    width: 180px;
+    height: 400px;
+    padding: 20px;
+
+}
+.action-button{
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    height: 34px;
+    min-width: 75px;
+    width: 180px;
+    max-width: 180px;
+    color: white;
+    margin-top: 20px;
+
+}
+.action-button:hover{
+    background-color: tan;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.filter-input-element{
+    margin-top: 20px;
+    white-space: nowrap;
+    display: inline-block;
+}
+#filter-min-price{
+    max-width: 56px;
+    margin-right: 5px;
+}
+#filter-max-price{
+    max-width: 56px;
+}
+#filter-text{
+    float: right;
+    max-width: 135px;
+}
+#filter-condition{
+    margin-top: 20px;
+}
+#filter-city{
+    width: 146px;
+}
+#sell-something-button{
+    position: fixed;
+    right: 15px; 
+    bottom: 15px;
+    height: 35px;
+    width: 35px;
+    color: white;
+    background-color: orange;
+    border: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+}
+#sell-something-button:hover{
+    transform: scale(1.25, 1.25);
+    border-radius: 37.5px;
+    cursor: pointer;
+}
+.post-image-container > img{
+    width: 200px;
+    height: 200px;
+}
+.post-contents{
+    float: left;
+    position: relative;
+    width: 275px;
+    height: 275px;
+    border: 1px solid rgba(87, 82, 82, 0.5);
+    padding: 30px;
+    margin: 10px;
+    bottom: 450px;
+    left: 230px;
+}
+.post-info-container{
+    margin-top: 20px;
+}
+.post-info-container > .post-title{
+    color: orange;
+}
+.post-info-container > .post-price{
+    border: 0.5px solid rgb(148, 142, 142);
+    background-color: rgb(194, 190, 190)
+}
